@@ -1,12 +1,11 @@
-
-import { useState } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Navigation from "../components/Navigation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import { toast } from "sonner";
-import { Upload, X, CheckCircle2, XCircle, Leaf, ThermometerSnow } from "lucide-react";
+import { Upload, X, CheckCircle2, XCircle, Leaf, ThermometerSun } from "lucide-react";
 
 const ImageAnalysis = () => {
   const navigate = useNavigate();
@@ -197,7 +196,7 @@ const ImageAnalysis = () => {
                     {analysisResult.diseaseDetected && analysisResult.treatment && (
                       <div>
                         <h4 className="font-medium text-gray-900 mb-2 flex items-center gap-2">
-                          <ThermometerSnow className="h-5 w-5 text-blue-600" />
+                          <ThermometerSun className="h-5 w-5 text-blue-600" />
                           Treatment Recommendations
                         </h4>
                         <ul className="space-y-1 list-disc list-inside text-gray-700 text-sm">
