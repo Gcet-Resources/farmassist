@@ -103,7 +103,7 @@ const Index = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <img
-              src="public/lovable-uploads/bb2ceeef-d132-412e-abcf-a2555eb9494c.png"
+              src="public/lovable-uploads/home-img.jpeg"
               alt="Farm tech illustration"
               className="rounded-2xl shadow-xl w-full object-cover"
             />
